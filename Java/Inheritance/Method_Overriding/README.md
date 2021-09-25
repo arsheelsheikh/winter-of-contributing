@@ -4,7 +4,7 @@ Declaring a method in sub class which is already present in parent class is know
 
 ## **Method Overriding Example**
 
-Lets take a simple example to understand this. We have two classes: A child class Boy and a parent class Human. The 'Boy' class extends 'Human' class. Both the classes have a common method 'void eat()'. Boy class is giving its own implementation to the 'eat()' method or in other words it is overriding the 'eat()' method.
+Lets, take a simple example to understand this. We have two classes: A child class Boy and a parent class Human. The 'Boy' class extends 'Human' class. Both the classes have a common method 'void eat()'. Boy class is giving its own implementation to the 'eat()' method or in other words it is overriding the 'eat()' method.
 
 The purpose of Method Overriding is clear here. Child class wants to give its own implementation so that when it calls this method, it prints Boy is eating instead of Human is eating.
 ```
